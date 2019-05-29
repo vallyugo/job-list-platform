@@ -1,0 +1,22 @@
+{
+  "name": "job-list-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vallyugo/job-list-platform.git"
+  },
+  "author": "Valentine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vallyugo/job-list-platform/issues"
+  },
+  "homepage": "https://github.com/vallyugo/job-list-platform#readme",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
