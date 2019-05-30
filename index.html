@@ -5,25 +5,28 @@
     <tittle></tittle>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <Meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="test/css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
 </head>
 
-<body>
+<body style="background-color: wheat">
 
-    <div class="jumbotron text-center" style="margin-top: 50px">
+    <div class="jumbotron" style="margin-top: 50px; text-align: center">
         <h1 style="color: purple">Biz Connect</h1>
         <p style>Let's help you get your dream job</p>
 
 
 
-        <div style="margin-bottom: 40px">
+        <div>
 
 
-            <select class="form-control col-sm-2 d-inline" id="sel1" style="font-size: 12px">
+            <select class="form-control col-m-4 d-inline" id="sellectfunction" style="font-size: 12px">
                 <optgroup label="Job Functions">
                     <option>All Functions</option>
-                    <option>IT Placement</option>
+
                     <option>Nursing</option>
                     <option>Teaching</option>
                     <option>Medical & Pharmaceutical</option>
@@ -34,72 +37,37 @@
 
 
 
-            <select class="form-control col-sm-2 d-inline" id="sel1" style="font-size: 12px">
+            <select class="form-control col-sm-2 d-inline" id="sellectindustry" style="font-size: 12px">
                 <option>All Industries</option>
                 <option>Software & IT</option>
                 <option>Health Care</option>
                 <option>Education & Training</option>
-                <option>Construction</option>
-                <option>Legal Services</option>
+
             </select>
 
 
 
 
-            <select class="form-control col-sm-2 d-inline" id="sel1" style="font-size: 12px">
+            <select class="form-control col-sm-2 d-inline" id="sellectstate" style="font-size: 12px">
                 <option>All states</option>
                 <option>Abia</option>
                 <option>Adamawa</option>
                 <option>Anambra</option>
-                <option>Akwa Ibom</option>
-                <option>Bauchi</option>
-                <option>Bayelsa</option>
-                <option>Benue</option>
-                <option>Borno</option>
-                <option>Cross River</option>
-                <option>Delta</option>
-                <option>Ebonyi</option>
-                <option>Enugu</option>
-                <option>Edo</option>
-                <option>Ekiti</option>
-                <option>FCT - Abuja</option>
-                <option>Gombe</option>
-                <option>Imo</option>
-                <option>Jigawa</option>
-                <option>Kaduna</option>
-                <option>Kano</option>
-                <option>Katsina</option>
-                <option>Kebbi</option>
-                <option>Kogi</option>
-                <option>Kwara</option>
-                <option>Lagos</option>
-                <option>Nasarawa</option>
-                <option>Niger</option>
-                <option>Ogun</option>
-                <option>Ondo</option>
-                <option>Osun</option>
-                <option>Oyo</option>
-                <option>Plateau</option>
-                <option>Rivers</option>
-                <option>Sokoto</option>
-                <option>Taraba</option>
-                <option>Yobe</option>
-                <option>Zamfara</option>
             </select>
-            <button type="button" class="btn btn-primary btn-1 .btn-xs"
+            <button type="button" id="searchlist" class="btn btn-primary btn-1 .btn-xs"
                 style="font-size: 13px; margin: 5px">Search</button>
         </div>
 
 
 
         <div style="text-align: right">
-            <button type="button" class="btn btn-primary btn-md" style="font-size: 13px; margin-right: 2px"><a
-                    href="login.html" style="color: white">LOGIN</a></button>
-            <button type="button" class="btn btn-primary btn-md" style="font-size: 13px; margin-right: 2px"><a
-                    href="signup.html" style="color: white">SIGN
+            <button type="button" id="login-k" class="btn btn-primary btn-md"
+                style="font-size: 13px; margin-right: 2px"><a href="login.html" style="color: black">LOGIN</a></button>
+            <button type="button" id="signup-k" class="btn btn-primary btn-md"
+                style="font-size: 13px; margin-right: 2px"><a href="signup.html" style="color:  black">SIGN
                     UP</a></button>
-            <button type="button" class="btn btn-primary btn-md" style="font-size: 13px"><a href="employer.html"
-                    style="color: white">Post A Job</a></button>
+            <button type="button" id="jobpost" class="btn btn-primary btn-md" style="font-size: 13px"><a
+                    href="employer.html" style="color:  black">Post A Job</a></button>
 
         </div>
 
@@ -112,76 +80,27 @@
 
 
 
-    <div class="container" style="margin-bottom: 60px">
+    <div class="container">
         <h3 style="text-align: left; color: purple">Biz Connect</h3>
         <p style="text-align: center">We desire to bring to your door step your dream jobs. Search through our hot
             available job listing now</p>
         <h4 style="text-align: center; color:darkslateblue; margin-bottom: 12px">Hot Jobs</h4>
-
-        <div class="row" style="margin-bottom: 40px">
-            <div class="col-sm-4" style="background-color:azure;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-            </div>
-            <div class="col-sm-4" style="background-color: wheat;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-
-            </div>
-            <div class="col-sm-4" style="background-color: azure;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-            </div>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="row" style="margin-bottom: 40px">
-            <div class="col-sm-4" style="background-color:azure;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-            </div>
-            <div class="col-sm-4" style="background-color: wheat;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-
-            </div>
-            <div class="col-sm-4" style="background-color: azure;">
-                <p style="margin-top: 10px">Company Name: Glo Limited</p>
-                <p>Industries: Software</p>
-                <p>Job Functions: IT Placement</p>
-                <p>Location: Enugu</p>
-
-
-            </div>
-
-        </div>
     </div>
+    <div id="appear">
+        <table id="table">
+
+
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
 
     <h1 style="text-align: center; color: black">Biz Connect</h1>
 
@@ -198,15 +117,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
 
 </body>
 

@@ -1,0 +1,67 @@
+{
+  "Job-Seeker": [
+    {
+      "id": 1,
+      "email": "vallydike@gmail.com",
+      "password": "2010224875",
+      "location": "Abuja",
+      "Role": "Job Seeker"
+    },
+    {
+      "id": 2,
+      "email": "vallyugo2@gmail.com",
+      "password": "201djd4875",
+      "location": "Imo",
+      "Role": "Job Seeker"
+    },
+    {
+      "id": 3,
+      "email": "ejidikevalentineu@gmail.com",
+      "password": "qwf02sj248h",
+      "location": "Enugu",
+      "Role": "Job Seeker"
+    }
+  ],
+  "Employer": [
+    {
+      "id": 1,
+      "email": "lydike@gmail.com",
+      "password": "27tgrys5",
+      "Company": "Glo Limited",
+      "Industry": "Software & IT",
+      "Job function": "IT Placement",
+      "location": "Kano",
+      "Role": "Employer"
+    },
+    {
+      "id": 2,
+      "email": "allyie@gmail.com",
+      "password": "kefyrbf3",
+      "Company": "Maris School",
+      "Industry": "Education and Training",
+      "Job function": "Teaching",
+      "location": "Benue",
+      "Role": "Employer"
+    },
+    {
+      "id": 3,
+      "email": "ke@gmail.com",
+      "password": "djdutb673h",
+      "Company": "Glo Limited",
+      "Industry": "Software & IT",
+      "Job function": "IT Placement",
+      "location": "Kano",
+      "Role": "Employer"
+    },
+    {
+      "email": "stanley@gmail.com",
+      "password": "donkey6",
+      "Company": "Ematty Grand",
+      "Industry": "Unizik",
+      "Job function": "lecturing",
+      "location": "Delta",
+      "Role": "Employer",
+      "id": 4
+    }
+  ]
+}
