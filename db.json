@@ -72,6 +72,16 @@
       "location": "PH",
       "Role": "Employer",
       "id": 5
+    },
+    {
+      "email": "okpa@gmail.com",
+      "password": "athony23",
+      "Company": "StarRad",
+      "Industry": "Medical & Pharmaceutical",
+      "Job function": "Office Assistant",
+      "location": "Kaduna",
+      "Role": "Employer",
+      "id": 6
     }
   ]
 }
