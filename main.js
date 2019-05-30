@@ -23,6 +23,37 @@ $(document).ready(function () {
         e.preventDefault();
     })
 
+
+    $("#searchlist").click(function () {
+        var A = $("#sellectfunction").val();
+        var B = $("#sellectstate").val();
+        var D = $("#sellectindustry").val();
+        if ((A == "All Functions") && (B == "All states") && (D == "All Industries")) {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:3000/Employer",
+                success: function (data) {
+                    for (i = 0; i < data.length; i++) {
+                        word = "";
+                        word += "Company: ";
+                        word += data[i].Company + "<br>";
+                        word += "Industry: "
+                        word += data[i].Industry + "<br>";
+                        word += "Job Function: ";
+                        word += data[i]["Job function"] + "<br>";
+                        word += "Location: ";
+                        word += data[i].location + "<br>" + "<br>";
+                        $("#appear").append(word);
+
+
+
+                    }
+
+                }
+            })
+        }
+    })
+
 });
 
 

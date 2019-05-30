@@ -62,6 +62,16 @@
       "location": "Delta",
       "Role": "Employer",
       "id": 4
+    },
+    {
+      "email": "okom@gmail.com",
+      "password": "jbjkssehg",
+      "Company": "Tonimas",
+      "Industry": "Oil and Gas",
+      "Job function": "Marketer",
+      "location": "PH",
+      "Role": "Employer",
+      "id": 5
     }
   ]
 }
